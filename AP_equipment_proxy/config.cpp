@@ -93,14 +93,14 @@ class cfgVehicles
 		attachments[]+=
 		{
 			"AP_slot_man_unload",
-			"AP_slot_man_headset"
+			//"AP_slot_man_headset"
 		};
 		class InventoryEquipment
 		{
 			playerSlots[]+=
 			{
 				"Slot_AP_slot_man_unload",
-				"Slot_AP_slot_man_headset"
+				// "Slot_AP_slot_man_headset"
 			};
 		};
 	};
@@ -116,14 +116,14 @@ class cfgVehicles
 class CfgNonAIVehicles
 {
 	class ProxyAttachment;
-	class Proxyapeqp_proxy1: ProxyAttachment
-	{
-		inventorySlot[]=
-		{
-			"AP_slot_man_headset"
-		};
-		model="AP_equipment_proxy\proxy\apeqp_proxy1.p3d";
-	};
+	// class Proxyapeqp_proxy1: ProxyAttachment
+	// {
+	// 	inventorySlot[]=
+	// 	{
+	// 		"AP_slot_man_headset"
+	// 	};
+	// 	model="AP_equipment_proxy\proxy\apeqp_proxy1.p3d";
+	// };
 	class Proxyapeqp_proxy2: ProxyAttachment
 	{
 		inventorySlot[]=
